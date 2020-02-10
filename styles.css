@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    grid-template-rows: 10% auto auto 10%;
+    grid-template-columns: 5% auto auto auto 5%;
+}
+
+.item{
+    grid-column: 1;
+    grid-row: 1;
+    margin: 10px;
+}
+
+#dex{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#know{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#mech{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#perc{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;    
+}
+
+#strength{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;    
+}
+
+#tech{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;    
+}
+
+input[type="number"]{
+    width:50px;
+}
+
+.dice{
+    margin-right: 20px;
+}
